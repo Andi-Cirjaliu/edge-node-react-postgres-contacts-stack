@@ -5,7 +5,7 @@
     "platform": "kubernetes",
     "description": "",
     "logo": "_images/SalesStack.png",
-    "cover": "cover",
+    "cover": "cover.md",
     "has_supporting_content": true,
     "meta": {
         "Language": [
