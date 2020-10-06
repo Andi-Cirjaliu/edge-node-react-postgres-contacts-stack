@@ -18,7 +18,6 @@ URL :  http://{DNS.IP}:30465
 ### Code Structure
 
 ![codestructure](_images/contacts-app-structure.png)
-![architecture](_images/contacts-app-structure.png)
 
 It follows a simple modular and MVC pattern. There are 3 folders that are of our interest:
 - k8s :  This contains all the deployment and service yaml for the application. This defines the deployment and exposure of our application.

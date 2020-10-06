@@ -59,7 +59,7 @@
         },
 		{
 			"description": "Get the contacts-db port",
-            "exec":  "contact_db_port=$(kubectl describe svc contacts-db -n pgo | grep "NodePort:" | awk '{print $(NF)}' | cut -d/ -f1 | tail -n 1)"		
+            "exec":  "contact_db_port=$(kubectl describe svc contacts-db -n pgo | grep \"NodePort:\" | awk '{print $(NF)}' | cut -d/ -f1 | tail -n 1)"		
 		},		
 		{
 			"description": "Initialize DB",
