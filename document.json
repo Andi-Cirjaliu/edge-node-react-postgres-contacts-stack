@@ -68,8 +68,8 @@
 		{
             "description": "Deploy Sample Application",
             "exec":  "cd /home/student/projects/edge-node-react-postgres-contacts-deploy&& skaffold config set default-repo localhost:5000 && skaffold run"
-        },
-    ]
+        }
+    ],
     "content": [
         "contacts-application-tutorial.md"
     ],
