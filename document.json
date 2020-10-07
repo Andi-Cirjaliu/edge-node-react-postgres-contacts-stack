@@ -39,7 +39,7 @@
         },		
 		{
             "description": "Wait for Postgres Operator to spin up ",
-            "exec": " && until nc -z -v -w30 $ip_addr 30422; do echo \"Waiting for database connection...\"; sleep 5; done;"
+            "exec": "until nc -z -v -w30 $ip_addr 30422; do echo \"Waiting for database connection...\"; sleep 5; done;"
         },		
         {
             "description": "Install Client Credentials and Download the PGO Binary and Client Certificates",
