@@ -10,7 +10,7 @@
       "categories": ["MVC", "PostgreSQL", "Express"],
       "has_dataset": false,
       "git_url": "https://github.com/Andi-Cirjaliu/edge-node-react-postgres-contacts-stack",
-      "git_commit": "79fd6515dc58940418705e3709b1893dfd18f8e6",
+      "git_commit": "45c8b5861cd8a99b265061d570ea21349397ee28",
       "git_reponame": "edge-node-react-postgres-contacts-stack",
       "packages":{
          "frontend":{
