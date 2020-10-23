@@ -1,6 +1,6 @@
 ```
 ---
-title: Contacts Application (React/NodeJS/PostgreSQL) Stack Tutorial
+title: Contacts Application (React/Node.js/PostgreSQL) Stack Tutorial
 description: The Stack comprises of a PostgreSQL , Backend and Frontend deployed as Microservices
 ---
 
