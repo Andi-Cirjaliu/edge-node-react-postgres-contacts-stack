@@ -30,10 +30,6 @@
           "exec":"cd /home/student/projects"
        },
        {
-          "description":"Create PGO Cluster",
-          "exec":"export PGO_APISERVER_URL=https://127.0.0.1:32443 && pgo create cluster contacts --username pguser --password password -n pgo >> output.txt 2 >> &1"
-       },
-       {
           "description":"Clone the Sample Application Code",
           "exec":"git clone https://github.com/Andi-Cirjaliu/edge-node-react-postgres-contacts-deploy.git >> output.txt 2 >> &1"
        },
